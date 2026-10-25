@@ -1,0 +1,12 @@
+:root { --fundo: #fbfaf7; --texto: #1d1b18; --suave: #5f5a52; --link: #7a3e12; }
+@media (prefers-color-scheme: dark) {
+  :root { --fundo: #171614; --texto: #ece8e1; --suave: #a8a196; --link: #e3a46f; }
+}
+body { margin: 0; background: var(--fundo); color: var(--texto);
+  font: 17px/1.6 Georgia, "Times New Roman", serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+h1 { font-size: 2rem; margin: 0 0 .25rem; }
+h2 { font-size: 1.2rem; margin-top: 2rem; }
+p.sub, footer { color: var(--suave); }
+a { color: var(--link); }
+footer { margin-top: 3rem; font-size: .9rem; }
